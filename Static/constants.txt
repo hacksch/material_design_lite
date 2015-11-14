@@ -1,0 +1,22 @@
+##################################################
+#   set basic file paths
+#   refer to portal constants/ for portal specific
+#   constants
+#
+    const.materialDesignLite.path {
+        relPrefix = EXT:material_design_lite/
+        styles = {$const.materialDesignLite.path.relPrefix}Resources/Public/Css/ 
+        scripts = {$const.materialDesignLite.path.relPrefix}Resources/Public/JavaScript/
+    }
+
+##################################################
+#   included CSS files
+#
+    const.materialDesignLite.file.css {
+        minified = material.min.css
+    }
+
+##################################################
+#   included JS files
+#
+    const.materialDesignLite.file.js.minified = material.min.js

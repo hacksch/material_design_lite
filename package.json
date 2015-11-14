@@ -1,0 +1,11 @@
+{
+  "name": "hacksch-material_design_lite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "author": "Martin Tepper",
+  "license": "BSD",
+  "devDependencies": {
+    "material-design-lite": ">=1.0.6"
+  }
+}
