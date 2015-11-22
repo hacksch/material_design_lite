@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/System/LocalAssets.ts">

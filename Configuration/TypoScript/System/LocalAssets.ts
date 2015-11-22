@@ -9,6 +9,11 @@
                 compress = 0
                 forceOnTop = 1
             }
+            materialIcons = {$const.materialDesignLite.path.styles}{$const.materialDesignLite.file.css.icons}
+            materialIcons {
+                media = all
+                forceOnTop = 1
+            }
         }
         includeJSFooterlibs {
             materialDesignLite = {$const.materialDesignLite.path.scripts}{$const.materialDesignLite.file.js.minified}

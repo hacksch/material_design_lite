@@ -1,6 +1,10 @@
 # material_design_lite
 Google Material Design Lite implementation for TYPO3
 
+## Features
+
+* Static templates to use local or CDN resources
+
 # License
 GPL 3.0+
 

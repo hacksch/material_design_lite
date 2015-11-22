@@ -3,10 +3,9 @@
 #   refer to portal constants/ for portal specific
 #   constants
 #
-    const.materialDesignLite.path {
-        relPrefix = EXT:material_design_lite/
-        styles = {$const.materialDesignLite.path.relPrefix}Resources/Public/Css/ 
-        scripts = {$const.materialDesignLite.path.relPrefix}Resources/Public/JavaScript/
+    const.materialDesignLite.url {
+        version = 1.0.6
+        base = https://storage.googleapis.com/code.getmdl.io/{$const.materialDesignLite.url.version}/
     }
 
 ##################################################
@@ -14,6 +13,7 @@
 #
     const.materialDesignLite.file.css {
         minified = material.min.css
+        icons = https://fonts.googleapis.com/icon?family=Material+Icons
     }
 
 ##################################################

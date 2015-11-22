@@ -5,7 +5,7 @@
   "keywords": ["TYPO3 CMS", "Google", "Material", "Material Design", "Material Design Lite"],
   "homepage": "https://github.com/hacksch/material_design_lite.git",
   "license": "GPL-3.0+",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "require": {
     "typo3/cms-core": ">=6.2.0,<8.0"
   }
