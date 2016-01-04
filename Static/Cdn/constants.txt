@@ -3,9 +3,15 @@
 #   refer to portal constants/ for portal specific
 #   constants
 #
-    const.materialDesignLite.url {
-        version = 1.0.6
-        base = https://storage.googleapis.com/code.getmdl.io/{$const.materialDesignLite.url.version}/
+    const.materialDesignLite {
+          # have a look for possible values
+          # http://www.getmdl.io/customize/index.html
+          # e.g brown-light_green
+        color-scheme =
+        url {
+            version = 1.0.6
+            base = https://storage.googleapis.com/code.getmdl.io/{$const.materialDesignLite.url.version}/
+        }
     }
 
 ##################################################
@@ -13,6 +19,7 @@
 #
     const.materialDesignLite.file.css {
         minified = material.min.css
+        minified.color-scheme = material.{$const.materialDesignLite.color-scheme}.min.css
         icons = https://fonts.googleapis.com/icon?family=Material+Icons
     }
 
