@@ -9,7 +9,7 @@
           # e.g brown-light_green
         color-scheme =
         url {
-            version = 1.0.6
+            version = 1.1.1
             base = https://storage.googleapis.com/code.getmdl.io/{$const.materialDesignLite.url.version}/
         }
     }
