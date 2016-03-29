@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-21T18:41:55Z" product-name="material_design_lite">
+		<header>
+			<type>database</type>
+			<description>Language labels for database tables/fields belonging to extension 'material_design_lite'</description>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="tt_content.tx_material_design_lite_grid_default">
+			<source>Default grid size</source>
+		</trans-unit>
+		<trans-unit id="tt_content.tx_material_design_lite_grid_desktop">
+            <source>Desktop grid size</source>
+        </trans-unit>
+        <trans-unit id="tt_content.tx_material_design_lite_grid_tablet">
+            <source>Tablet grid size</source>
+        </trans-unit>
+        <trans-unit id="tt_content.tx_material_design_lite_grid_phone">
+            <source>Phone grid size</source>
+        </trans-unit>
+		</body>
+	</file>
+</xliff>
