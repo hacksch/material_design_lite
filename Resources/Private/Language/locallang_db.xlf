@@ -19,6 +19,9 @@
         <trans-unit id="tt_content.tx_material_design_lite_grid_phone">
             <source>Phone grid size</source>
         </trans-unit>
+        <trans-unit id="palette.responsive_layout">
+            <source>Responsive Settings</source>
+        </trans-unit>
 		</body>
 	</file>
 </xliff>
