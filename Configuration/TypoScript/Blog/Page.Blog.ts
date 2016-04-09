@@ -6,6 +6,7 @@
 
 page = PAGE
 page {
+  typeNum = 0
   meta {
     author.data = levelfield:-1, author, slide
     keywords.field = keywords
@@ -23,11 +24,11 @@ page {
       key.override.field = backend_layout
         
       default = TEXT
-      default.value = fileadmin/blog/blog.html
+      default.value = EXT:material_design_lite/Resources/Private/Templates/Blog/Index.html
     }
     
-    partialRootPath = fileadmin/blog/partials/
-    layoutRootPath = fileadmin/blog/layouts/
+    partialRootPath = EXT:material_design_lite/Resources/Private/Partials/
+    layoutRootPath = EXT:material_design_lite/Resources/Private/Layouts/
     variables {
         content < styles.content.get
         content.select.where = colPos = 0

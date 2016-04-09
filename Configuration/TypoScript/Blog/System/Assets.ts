@@ -3,5 +3,5 @@
 #
 
 page.includeCSS {    
-  style = fileadmin/blog/styles.css
+  style = EXT:material_design_lite/Resources/Public/Css/Blog.css
 }
