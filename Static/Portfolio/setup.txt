@@ -1,0 +1,3 @@
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/System/Assets.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Page.Portfolio.ts">

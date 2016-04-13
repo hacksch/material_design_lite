@@ -7,22 +7,25 @@
 			<generator>LFEditor</generator>
 		</header>
 		<body>
-		<trans-unit id="tt_content.tx_material_design_lite_grid_default">
-            <source>Default grid size</source>
-            <target>Standard Gridbreite</target>
-        </trans-unit>
-        <trans-unit id="tt_content.tx_material_design_lite_grid_desktop">
-            <source>Desktop grid size</source>
-            <target>Gridbreite für Desktop</target>
-        </trans-unit>
-        <trans-unit id="tt_content.tx_material_design_lite_grid_tablet">
-            <source>Tablet grid size</source>
-            <target>Gridbreite für Tablets</target>
-        </trans-unit>
-        <trans-unit id="tt_content.tx_material_design_lite_grid_phone">
-            <source>Phone grid size</source>
-            <target>Gridbreite für Smartphones</target>
-        </trans-unit>
+    		<trans-unit id="tt_content.tx_material_design_lite_grid_default">
+                <source>Default grid size</source>
+                <target>Standard Gridbreite</target>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_material_design_lite_grid_desktop">
+                <source>Desktop grid size</source>
+                <target>Gridbreite für Desktop</target>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_material_design_lite_grid_tablet">
+                <source>Tablet grid size</source>
+                <target>Gridbreite für Tablets</target>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_material_design_lite_grid_phone">
+                <source>Phone grid size</source>
+                <target>Gridbreite für Smartphones</target>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_material_design_lite_card_shadow">
+                <source>Außenschatten</source>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>

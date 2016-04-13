@@ -9,18 +9,18 @@ Google Material Design Lite implementation for TYPO3
 ## Short introductions
 
 ### Want to use my own generated css file
-* since 1.0.0
+* since 2.0.0
 * only Local Resources Template
 
-Have a look to the const.materialDesignLite.path, const.materialDesignLite.file.css and const.materialDesignLite.file.js.minified subparts
+Have a look to the plugin.materialDesignLite.path, plugin.materialDesignLite.file.css and plugin.materialDesignLite.file.js.minified subparts
 
 TypoScript constant example:
 ```
-const.materialDesignLite {
+plugin.materialDesignLite {
     path {
         relPrefix = fileadmin/templates/
-        styles = {$const.materialDesignLite.path.relPrefix}/Css/ 
-        scripts = {$const.materialDesignLite.path.relPrefix}/JavaScript/
+        styles = {$plugin.materialDesignLite.path.relPrefix}/Css/ 
+        scripts = {$plugin.materialDesignLite.path.relPrefix}/JavaScript/
     }
     file {
         css.minified = your.material.min.css
@@ -32,23 +32,23 @@ const.materialDesignLite {
 ```
 
 ### Use another MDL version 
-* since 1.1.0
+* since 2.0.0
 * only CDN Resources Template
 
 TypoScript constant:
 ```
-const.materialDesignLite.url.version = 1.0.6 
+plugin.materialDesignLite.url.version = 1.0.6 
 ```
 
 ### How to use color schemes 
-* since 1.2.0
+* since 2.0.0
 * only CDN Resources Template
 
 For possible primary and accent color combinations have a look at http://www.getmdl.io/customize/index.html
 
 TypoScript constant:
 ```
-const.materialDesignLite.color-scheme = brown-light_green 
+plugin.materialDesignLite.color-scheme = brown-light_green 
 ```
 
 # License

@@ -93,14 +93,39 @@ $tempColumns = array(
             'default' => '0',
         )
     ),
+    'tx_material_design_lite_card_shadow' => array(
+        'exclude' => 1,
+        'label' => 'LLL:EXT:material_design_lite/Resources/Private/Language/locallang_db.xml:tt_content.tx_material_design_lite_card_shadow',
+        'config' => array(
+            'type' => 'select',
+            'items' => array(
+                array('', 0),
+                array('2', 2),
+                array('3', 3),
+                array('4', 4),
+                array('6', 6),
+                array('8', 8),
+                array('16', 16),
+            ),
+            'default' => '4',
+        )
+    ),
 );
 
+    // add new palette
 $GLOBALS['TCA']['tt_content']['palettes']['mdl_layout'] = array(
-  'showitem' => 'tx_material_design_lite_grid_default, tx_material_design_lite_grid_desktop, tx_material_design_lite_grid_tablet, tx_material_design_lite_grid_phone',
-  'canNotCollapse' => 1
+    'showitem' => 'tx_material_design_lite_grid_default, tx_material_design_lite_grid_desktop, tx_material_design_lite_grid_tablet, tx_material_design_lite_grid_phone',
+    'canNotCollapse' => 1
 );
 
+    // add fields and palette
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', $tempColumns);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
+    'tt_content',
+    'frames',
+    'tx_material_design_lite_card_shadow',
+    'after:section_frame'
+);
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
     'tt_content',
     '--palette--;LLL:EXT:material_design_lite/Resources/Private/Language/locallang_db.xml:palette.responsive_layout;mdl_layout',

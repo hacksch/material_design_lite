@@ -7,21 +7,24 @@
 			<generator>LFEditor</generator>
 		</header>
 		<body>
-		<trans-unit id="tt_content.tx_material_design_lite_grid_default">
-			<source>Default grid size</source>
-		</trans-unit>
-		<trans-unit id="tt_content.tx_material_design_lite_grid_desktop">
-            <source>Desktop grid size</source>
-        </trans-unit>
-        <trans-unit id="tt_content.tx_material_design_lite_grid_tablet">
-            <source>Tablet grid size</source>
-        </trans-unit>
-        <trans-unit id="tt_content.tx_material_design_lite_grid_phone">
-            <source>Phone grid size</source>
-        </trans-unit>
-        <trans-unit id="palette.responsive_layout">
-            <source>Responsive Settings</source>
-        </trans-unit>
+    		<trans-unit id="tt_content.tx_material_design_lite_grid_default">
+    			<source>Default grid size</source>
+    		</trans-unit>
+    		<trans-unit id="tt_content.tx_material_design_lite_grid_desktop">
+                <source>Desktop grid size</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_material_design_lite_grid_tablet">
+                <source>Tablet grid size</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_material_design_lite_grid_phone">
+                <source>Phone grid size</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_material_design_lite_card_shadow">
+                <source>Outer shadow</source>
+            </trans-unit>
+            <trans-unit id="palette.responsive_layout">
+                <source>Responsive Settings</source>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>

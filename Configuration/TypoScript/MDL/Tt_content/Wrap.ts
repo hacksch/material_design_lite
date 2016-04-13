@@ -5,6 +5,8 @@
 tt_content.stdWrap.innerWrap.cObject.default.20.10 >
 tt_content.stdWrap.innerWrap.cObject.default.20.10 = COA
 tt_content.stdWrap.innerWrap.cObject.default.20.10 {
+
+    # responsive settings
   10 = TEXT
   10 {
     value = csc-default mdl-card mdl-cell
@@ -33,5 +35,13 @@ tt_content.stdWrap.innerWrap.cObject.default.20.10 {
     field = tx_material_design_lite_grid_phone
     noTrimWrap = |mdl-cell--|-col-phone|
     if.isTrue.field = tx_material_design_lite_grid_phone
+  }
+  
+    # outer shadow
+  70 = TEXT
+  70 {
+    field = tx_material_design_lite_card_shadow
+    noTrimWrap = | mdl-shadow--|dp|
+    if.isTrue.field = tx_material_design_lite_card_shadow
   }
 }

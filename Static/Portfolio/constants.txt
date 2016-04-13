@@ -1,0 +1,4 @@
+##################################################
+#   Skin grey-pink
+#
+    plugin.materialDesignLite.file.css.minified = material.grey-pink.min.css

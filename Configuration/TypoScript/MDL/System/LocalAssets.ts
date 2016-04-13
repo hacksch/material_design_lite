@@ -3,13 +3,13 @@
 #
     page {
         includeCSSLibs {
-            materialDesignLite = {$const.materialDesignLite.path.styles}{$const.materialDesignLite.file.css.minified}
+            materialDesignLite = {$plugin.materialDesignLite.path.styles}{$plugin.materialDesignLite.file.css.minified}
             materialDesignLite {
                 media = all
                 compress = 0
                 forceOnTop = 1
             }
-            materialIcons = {$const.materialDesignLite.path.styles}{$const.materialDesignLite.file.css.icons}
+            materialIcons = {$plugin.materialDesignLite.path.styles}{$plugin.materialDesignLite.file.css.icons}
             materialIcons {
                 media = all
                 compress = config.compressCss
@@ -17,7 +17,7 @@
             }
         }
         includeJSFooterlibs {
-            materialDesignLite = {$const.materialDesignLite.path.scripts}{$const.materialDesignLite.file.js.minified}
+            materialDesignLite = {$plugin.materialDesignLite.path.scripts}{$plugin.materialDesignLite.file.js.minified}
             materialDesignLite {
                 compress = 0
                 forceOnTop = 1
