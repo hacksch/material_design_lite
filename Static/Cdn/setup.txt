@@ -1,3 +1,3 @@
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Mdl/System/CdnAssets.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/MDL/System/CdnAssets.ts">
 
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Mdl/Tt_content/Wrap.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/MDL/Tt_content/Wrap.ts">
