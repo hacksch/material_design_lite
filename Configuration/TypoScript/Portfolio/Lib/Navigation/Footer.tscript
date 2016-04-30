@@ -1,0 +1,19 @@
+##############################
+# Main navigation
+#
+
+lib.navigation.footer = HMENU
+lib.navigation.footer {
+
+  special = directory
+  special.value = {$plugin.materialDesignLite.navigation.footer}
+  
+  wrap = <ul class="mdl-mini-footer__link-list">|</ul>
+  
+  1 = TMENU
+  1 {
+    NO {
+      linkWrap = <li>|</li>
+    }
+  }
+}

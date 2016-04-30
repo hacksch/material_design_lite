@@ -1,0 +1,6 @@
+##############################
+# Page title
+#
+
+lib.misc.pageTitle = TEXT
+lib.misc.pageTitle.data = page:nav_title // page:title

@@ -1,4 +1,13 @@
-##################################################
+##############################
 #   Skin grey-pink
 #
     plugin.materialDesignLite.file.css.minified = material.grey-pink.min.css
+    
+
+##############################
+#   Configuration
+#
+
+plugin.materialDesignLite.navigation.root = 1
+plugin.materialDesignLite.navigation.main = 2
+plugin.materialDesignLite.navigation.footer = 3

@@ -1,0 +1,22 @@
+##############################
+# Main navigation
+#
+
+lib.navigation.main = HMENU
+lib.navigation.main {
+
+  special = directory
+  special.value = {$plugin.materialDesignLite.navigation.main}
+  
+  1 = TMENU
+  1 {
+    NO {
+      ATagParams = class="mdl-navigation__link"
+    }
+    
+    ACT = 1
+    ACT {
+      ATagParams = class="mdl-navigation__link is-active"
+    }
+  }
+}

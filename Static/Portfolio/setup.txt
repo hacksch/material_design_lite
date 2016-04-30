@@ -1,3 +1,13 @@
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/System/Assets.ts">
 
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Page.Portfolio.ts">
+  # Misc
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Lib/Misc/PageTitle.tscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Lib/Misc/Title.tscript">
+
+  # Navigation
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Lib/Navigation/Main.tscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Lib/Navigation/Footer.tscript">
+
+  # Config
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/System/Assets.tscript">
+
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Page.Portfolio.tscript">
