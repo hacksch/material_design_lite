@@ -8,3 +8,6 @@ if (!defined('TYPO3_MODE')) {
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Static/Blog/', 'Blog Layout - Material Design Lite');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Static/Portfolio/', 'Portfolio Layout - Material Design Lite');
+
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:'. $_EXTKEY .'/Configuration/TsConfig/Page/tt_content.tscript">');

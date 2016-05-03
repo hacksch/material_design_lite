@@ -1,0 +1,7 @@
+################################################
+#   Extend layout field
+#
+
+	TCEFORM.tt_content.layout {
+		addItems.20 = LLL:EXT:material_design_lite/Resources/Private/Language/locallang_db.xlf:tt_content.layout.20.card
+	}

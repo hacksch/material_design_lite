@@ -9,10 +9,19 @@ tt_content.stdWrap.innerWrap.cObject.default.20.10 {
     # responsive settings
   10 = TEXT
   10 {
-    value = csc-default mdl-card mdl-cell
+    value = csc-default mdl-cell
     required = 1
     noTrimWrap = || |
   }
+  
+  15 = TEXT
+  15 {
+    value = mdl-card
+    noTrimWrap = || |
+    if.value = 20
+    if.equals.field = layout
+  }
+  
   20 = TEXT
   20 {
     field = tx_material_design_lite_grid_desktop

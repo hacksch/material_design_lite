@@ -19,6 +19,10 @@
                 <source>Phone grid size</source>
                 <target>Gridbreite für Smartphones</target>
             </trans-unit>
+            <trans-unit id="tt_content.layout.20.card">
+                <source>Card</source>
+                <target>Kachel</target>
+            </trans-unit>
             <trans-unit id="tt_content.tx_material_design_lite_card_shadow">
                 <source>Schlagschatten</source>
             </trans-unit>
