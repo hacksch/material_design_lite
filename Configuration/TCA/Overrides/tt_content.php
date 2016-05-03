@@ -73,7 +73,7 @@ $tempColumns = array(
                 array('8', 8),
                 array('16', 16),
             ),
-            'default' => '4',
+            'default' => '0',
         )
     ),
 );
