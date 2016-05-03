@@ -17,7 +17,7 @@
                 <source>Phone grid size</source>
             </trans-unit>
             <trans-unit id="tt_content.tx_material_design_lite_card_shadow">
-                <source>Outer shadow</source>
+                <source>Cast shadow</source>
             </trans-unit>
             <trans-unit id="palette.responsive_layout">
                 <source>Responsive Settings</source>

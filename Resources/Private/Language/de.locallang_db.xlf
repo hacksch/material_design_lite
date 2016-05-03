@@ -20,7 +20,7 @@
                 <target>Gridbreite für Smartphones</target>
             </trans-unit>
             <trans-unit id="tt_content.tx_material_design_lite_card_shadow">
-                <source>Außenschatten</source>
+                <source>Schlagschatten</source>
             </trans-unit>
 		</body>
 	</file>
