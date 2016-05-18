@@ -1,5 +1,6 @@
 
   # Misc
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Lib/Misc/HeaderImage.tscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Lib/Misc/PageTitle.tscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: EXT:material_design_lite/Configuration/TypoScript/Portfolio/Lib/Misc/Title.tscript">
 

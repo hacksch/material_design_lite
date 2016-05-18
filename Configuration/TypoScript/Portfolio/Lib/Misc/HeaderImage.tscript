@@ -1,0 +1,20 @@
+lib.misc.headerImage = FILES
+lib.misc.headerImage {
+    references {
+        table = pages
+        uid.data = tsfe:id
+        fieldName = media
+    }
+
+    begin = 0
+    maxItems = 1
+
+    renderObj = IMAGE
+    renderObj {
+        file.import.data = file:current:uid
+        file.treatIdAsReference = 1
+        params = class="article-image"
+        altText.data = file:current:title
+        wrap = <div class="mdl-card__media">|</div>
+    }
+}
