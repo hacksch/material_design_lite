@@ -1,8 +1,0 @@
-##############################
-# Website title
-#
-
-lib.misc.title = TEXT
-lib.misc.title {
-  data = DB:pages:{$plugin.materialDesignLite.navigation.root}:title
-}

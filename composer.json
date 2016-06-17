@@ -3,7 +3,7 @@
   "description": "Google Material Design Lite implementation for TYPO3",
   "type": "typo3-cms-extension",
   "keywords": ["TYPO3 CMS", "Google", "Material", "Material Design", "Material Design Lite"],
-  "homepage": "https://github.com/hacksch/material_design_lite.git",
+  "homepage": "https://github.com/hacksch/material_design_lite",
   "license": [
     "GPL-3.0+",
     "Apache-2.0"
