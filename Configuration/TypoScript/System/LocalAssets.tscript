@@ -6,7 +6,7 @@
             materialDesignLite = {$plugin.materialDesignLite.path.styles}{$plugin.materialDesignLite.file.css.minified}
             materialDesignLite {
                 media = all
-                compress = 0
+                compress = 1
                 forceOnTop = 1
             }
             materialIcons = {$plugin.materialDesignLite.path.styles}{$plugin.materialDesignLite.file.css.icons}
